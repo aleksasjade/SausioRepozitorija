@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paskaita 8", "Paskaita 8\Paskaita 8.csproj", "{DD5133DD-FC48-40A3-AEF2-F25ED5F9D0C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD5133DD-FC48-40A3-AEF2-F25ED5F9D0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5133DD-FC48-40A3-AEF2-F25ED5F9D0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5133DD-FC48-40A3-AEF2-F25ED5F9D0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5133DD-FC48-40A3-AEF2-F25ED5F9D0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8F69BE3-2050-42C0-A2C9-67637E3FA7D1}
+	EndGlobalSection
+EndGlobal
