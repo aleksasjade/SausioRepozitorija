@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EFCD4469-B00A-4846-A79A-6C7B1E52E3D0}</ProjectGuid>
+    <ProjectGuid>{40338E49-5E6C-42B4-AE34-19382BB269A3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Paskaita_11</RootNamespace>
-    <AssemblyName>Paskaita 11</AssemblyName>
+    <RootNamespace>Paskaita_13</RootNamespace>
+    <AssemblyName>Paskaita 13</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IMatematika.cs" />
+    <Compile Include="Enumas.cs" />
+    <Compile Include="EnumoKlase.cs" />
+    <Compile Include="IPrintData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Skaicius.cs" />
+    <Compile Include="SukurtaKlase.cs" />
+    <Compile Include="SukurtasStructas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

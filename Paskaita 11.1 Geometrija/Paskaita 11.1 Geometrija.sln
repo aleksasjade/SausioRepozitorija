@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paskaita 11.1 Geometrija", "Paskaita 11.1 Geometrija\Paskaita 11.1 Geometrija.csproj", "{A843E1D9-9BFC-4A7B-B7B7-955D4A4A9659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A843E1D9-9BFC-4A7B-B7B7-955D4A4A9659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A843E1D9-9BFC-4A7B-B7B7-955D4A4A9659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A843E1D9-9BFC-4A7B-B7B7-955D4A4A9659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A843E1D9-9BFC-4A7B-B7B7-955D4A4A9659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C11F32E-547C-4DF1-B2B2-BFE7525BB96A}
+	EndGlobalSection
+EndGlobal
