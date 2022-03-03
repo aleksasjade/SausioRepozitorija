@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EFCD4469-B00A-4846-A79A-6C7B1E52E3D0}</ProjectGuid>
+    <ProjectGuid>{CA19F454-B19B-4238-A2B9-7574AD8C0078}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Paskaita_11</RootNamespace>
-    <AssemblyName>Paskaita 11</AssemblyName>
+    <RootNamespace>Paskaita_15</RootNamespace>
+    <AssemblyName>Paskaita 15</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IMatematika.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Skaicius.cs" />
+    <Compile Include="ZodziuDuombaze.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

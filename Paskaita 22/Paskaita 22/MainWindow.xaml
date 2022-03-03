@@ -1,0 +1,33 @@
+﻿<Window x:Class="Paskaita_22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Paskaita_22"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock Text="Kambario plotis: " />
+            <TextBlock x:Name="KambarioPlotis" Width="50" Text="" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" RenderTransformOrigin="0.5,1.878">
+            <TextBlock Text="Kambario ilgis: " />
+            <TextBlock x:Name="KambarioIlgis" Width="50"/>
+        </StackPanel>
+        <Button Content="Paskaiciuoti" Grid.Row="2" Click="Button_Click"/>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" >
+            <TextBlock Text="Kambario ilgis: " />
+            <TextBox Text="KambarioIlgis" Width="50"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -77,7 +77,7 @@ namespace Paskaita_7
             List<Snipas> snipuSarasas = new List<Snipas>();
             for(int i = 0; i < 10; i++)
             {
-                Snipas snipas = new Snipas($"snipas{i}");
+                Snipas snipas = new Snipas($"Snipas{i}");
                 snipuSarasas.Add(snipas);
             }
 

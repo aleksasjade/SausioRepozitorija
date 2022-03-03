@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EFCD4469-B00A-4846-A79A-6C7B1E52E3D0}</ProjectGuid>
+    <ProjectGuid>{B8F9F60D-DA8C-4DA0-8B54-CE3A0FA5AF10}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Paskaita_11</RootNamespace>
-    <AssemblyName>Paskaita 11</AssemblyName>
+    <RootNamespace>Paskaita_17</RootNamespace>
+    <AssemblyName>Paskaita 17</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IMatematika.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Hero.cs" />
+    <Compile Include="IPrintable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Skaicius.cs" />
+    <Compile Include="Studentas.cs" />
+    <Compile Include="UnitController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
