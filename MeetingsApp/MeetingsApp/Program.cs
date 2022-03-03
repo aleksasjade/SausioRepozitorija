@@ -185,7 +185,6 @@ namespace MeetingsApp
                     Console.WriteLine("Wrong start date format. Try again.");
                 }
             }
-
             return startDate;
 
         }
