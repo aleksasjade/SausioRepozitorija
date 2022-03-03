@@ -103,6 +103,7 @@ namespace MeetingsApp
             Console.Write("Meeting description: ");
             string description = Console.ReadLine();
             return description;
+            //c
         }
 
         public static Category AskForCategory()
